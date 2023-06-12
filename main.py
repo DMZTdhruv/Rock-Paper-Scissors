@@ -40,14 +40,12 @@ print(option_list[human_choice])
 print("\n")
 
 
-# Computer_Choice;
+# Computer_Choice logic
 computer_choice = int(random.randint(0,2));
 print(f"Computer choosed:\n{option_list[computer_choice]}");
 
 
 #Logic
-# options = ["Rock","Paper","Scissors"];
-
 if (human_choice) == (computer_choice):
   print("It's a Draw")
 
@@ -68,4 +66,3 @@ elif (human_choice == 2) and (computer_choice == 0):
 
 elif (human_choice == 2) and (computer_choice == 1):
   print("User won")
-
